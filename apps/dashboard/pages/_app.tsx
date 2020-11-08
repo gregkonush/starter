@@ -1,26 +1,16 @@
 import React from 'react';
+import { Provider } from 'react-redux';
 import { AppProps } from 'next/app';
-import Head from 'next/head';
-import { ReactComponent as NxLogo } from '../public/nx-logo-white.svg';
-import './styles.css';
+import { GlobalStyles } from 'twin.macro';
+import store from '../store';
 
-const CustomApp = ({ Component, pageProps }: AppProps) => {
-  return (
-    <>
-      <Head>
-        <title>Welcome to dashboard!</title>
-      </Head>
-      <div className="app">
-        <header className="flex">
-          <NxLogo width="75" height="50" />
-          <h1>Welcome to dashboard!</h1>
-        </header>
-        <main>
-          <Component {...pageProps} />
-        </main>
-      </div>
-    </>
-  );
-};
+const App = ({ Component, pageProps }: AppProps) => (
+  <>
+    <GlobalStyles />
+    <Provider store={store}>
+      <Component {...pageProps} />
+    </Provider>
+  </>
+);
 
-export default CustomApp;
+export default App;

@@ -1,0 +1,148 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it should match snapshot 1`] = `
+.c0 {
+  height: 100vh;
+  --bg-opacity: 1;
+  background-color: rgba(0,0,0,var(--bg-opacity));
+  --text-opacity: 1;
+  color: rgba(255,255,255,var(--text-opacity));
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c1 {
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  width: 100%;
+  height: 5rem;
+  --bg-opacity: 1;
+  background-color: rgba(26,32,44,var(--bg-opacity));
+  padding: 0.5rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c2 {
+  padding: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-width: 1px;
+  --border-opacity: 1;
+  border-color: rgba(255,255,255,var(--border-opacity));
+  border-radius: 0.375rem;
+}
+
+.c3 {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c5 {
+  cursor: pointer;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.c5:hover {
+  --bg-opacity: 1;
+  background-color: rgba(113,128,150,var(--bg-opacity));
+}
+
+.c6 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.c7 {
+  --bg-opacity: 1;
+  background-color: rgba(45,55,72,var(--bg-opacity));
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+<div
+  class="c0"
+>
+  <header
+    class="c1"
+  >
+    <div>
+      <button
+        class="c2"
+      >
+        Logout
+      </button>
+    </div>
+  </header>
+  <main
+    class="c3"
+  >
+    <div
+      class="c4"
+    >
+      <div
+        class="c5"
+      >
+        Dashboard
+      </div>
+      <div
+        class="c6"
+      >
+        Settings
+      </div>
+    </div>
+    <div
+      class="c7"
+    >
+      test
+    </div>
+  </main>
+</div>
+`;
